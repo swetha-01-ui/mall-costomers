@@ -1,6 +1,8 @@
 # 🛍️ Mall Customer Segmentation & Spending Score Analysis
 
-This project analyzes customer behavior using the Mall_Customers dataset. The focus is on understanding **spending score patterns** across different age groups, income levels, and genders, and clustering customers for targeted strategies.
+This project performs a spending behavior analysis on the "Mall Customers" dataset using **Apache PySpark** in a professional WSL-based environment.The focus is on understanding **spending score patterns** across different age groups, income levels, and genders, and clustering customers for targeted strategies.# Mall Customers Spending Analysis. It is developed for internship and portfolio demonstration purposes.
+
+---
 
 ## 🚀 Technologies Used
 - **PySpark**: For distributed data processing
@@ -17,13 +19,13 @@ Mall_Customers_Analysis/
 │   └── Mall_Customers.csv              # Raw dataset
 │
 ├── notebooks/
-│   └── mall_analysis.ipynb             # Jupyter Notebook with full analysis
+│   └── analysis.ipynb             # Jupyter Notebook with full analysis
 │
 ├── src/
-│   ├── __init__.py
+│   ├
 │   ├── load_data.py                    # Script to load data using PySpark
-│   ├── analyze_spending.py            # Script for spending score analysis
-│   └── clustering.py                   # K-Means or other ML analysis
+│   ├── spending_score_analysis.py            # Script for spending score analysis
+│   └── PySpark modules                 
 │
 ├── reports/
 │   ├── Analysis_Report.docx            # Word report (final)
@@ -33,7 +35,7 @@ Mall_Customers_Analysis/
 │   ├── charts/                         # All generated charts/images
 │   └── cleaned_data.csv                # Any exported or cleaned data
 │
-├── requirements.txt                    # List of Python + PySpark dependencies
+├                  
 ├── README.md                           # Project overview, steps, insights
 └── .gitignore                          # Optional, if pushing to GitHub
 
@@ -45,13 +47,13 @@ Mall_Customers_Analysis/
 - Customer clustering using K-Means
 
 ## 📈 Deliverables
-- Cleaned dataset (optional)
+- Cleaned dataset 
 - Visualizations
 - Word report on insights & challenges
 - Jupyter notebook (.ipynb)
 
 ## 📝 Author
-**Your Name**  
+**Team4**  
 Intern - Mall Customer Segmentation Project
 
 ## 🗃️ Data Source

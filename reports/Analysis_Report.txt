@@ -1,0 +1,61 @@
+
+## 🧾 Analysis Report — Mall Customers Dataset
+
+### 📌 Introduction
+
+This report presents an analysis of the *Mall Customers* dataset with a focus on the **Spending Score (1-100)**. The goal is to identify behavioral insights and purchasing patterns using Apache PySpark in a distributed data environment.
+
+The dataset includes the following attributes:
+- **CustomerID** (Integer)
+- **Genre** (Male/Female)
+- **Age** (Years)
+- **Annual Income (k$)** (Integer)
+- **Spending Score (1-100)** (Integer)
+
+---
+
+### 📊 Spending Score Distribution
+
+An initial aggregation shows how customers are distributed across different spending scores.
+
+
+| Spending Score | Count                                            |
+|----------------|--------------------------------------------------|
+| 1–10           | High variance, some with high income             |
+| 40–60          | Most customers fall in this range                |
+| 80–100         | Smaller group, likely frequent or premium buyers |
+
+This suggests a typical bell-shaped distribution with clusters on both extremes.
+
+---
+
+### 📈 Average Income by Spending Score
+
+We grouped customers by their spending score and computed the average income:
+
+| Spending Score | Avg Income | Count |
+|----------------|------------|-------|
+| 1              | 78.0       | 2     |
+| 15             | 68.7       | 3     |
+| 80             | ~87.5      | 3     |
+| 97             | ~86.0      | 2     |
+
+Key observations:
+- **High income does not guarantee high spending score**, as some low-score groups had incomes above $70k.
+- Customers in the **mid-score range (40–60)** are generally well distributed in income.
+- Some **high-score customers** had both moderate and high income, indicating mixed segments.
+
+---
+
+### 🧠 Insights
+
+- Spending Score is influenced by more than just income — possibly age, loyalty, or promotions.
+- **Segmentation Opportunity**:
+  - *High Score + Low Income*: Loyal budget-conscious buyers.
+  - *High Score + High Income*: Premium targets for high-value products.
+- The data can support **marketing strategies** for personalization and upselling.
+
+---
+
+
+
