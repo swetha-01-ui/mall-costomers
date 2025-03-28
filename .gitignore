@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# VS Code config
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Output
+outputs/*.png
+outputs/*.csv
+
+# Word reports (optional)
+reports/*.docx
+
+# PySpark logs
+metastore_db/
+derby.log
+*.log
