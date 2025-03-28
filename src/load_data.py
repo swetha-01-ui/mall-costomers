@@ -3,7 +3,7 @@ from pyspark.sql import SparkSession
 spark = SparkSession.builder \
     .appName("MallCustomersLoader") \
     .getOrCreate()
-spark.sparkContext.setLogLevel("ERROR")
+
 def load_customer_data(path):
     spark = SparkSession.builder \
         .appName("MallCustomersLoader") \

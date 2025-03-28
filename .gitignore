@@ -30,3 +30,6 @@ reports/*.docx
 metastore_db/
 derby.log
 *.log
+
+# process file
+process.txt
